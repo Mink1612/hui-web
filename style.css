@@ -1,0 +1,29 @@
+/* Dùng lại code style.css đã cung cấp ở câu trả lời trước */
+body {
+    margin: 0;
+    overflow: hidden; 
+    background-color: #000;
+}
+
+#valentine-canvas {
+    display: block;
+}
+
+.music-button {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 100; 
+    padding: 10px 15px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    border-radius: 5px;
+    color: white;
+    transition: background 0.3s;
+}
+
+.music-button:hover {
+    background: rgba(255, 255, 255, 0.3);
+}
