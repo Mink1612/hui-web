@@ -243,7 +243,7 @@ controls.autoRotate = false;
 
 // GIỚI HẠN ZOOM
 controls.minDistance = 20; // Khoảng cách tối thiểu (không zoom quá gần)
-controls.maxDistance = 100; // Khoảng cách tối đa (không zoom quá xa)
+controls.maxDistance = 120; // Khoảng cách tối đa (không zoom quá xa)
 
 // =========================================================
 // 5. Vòng Lặp Hoạt Hình (Logic Rơi Xuống & Đổi Màu)
@@ -300,3 +300,4 @@ window.addEventListener('resize', () => {
     renderer.setSize(window.innerWidth, window.innerHeight);
 
 }, false);
+
