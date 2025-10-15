@@ -17,7 +17,7 @@ const messages = [
     "Em ị húi",
     "Chúc em húi càng ngày càng húi",
     "Em là mèo con húi thum thủm",
-    "Yêu em húi nhiều",
+    "Khải Minh yêu em húi nhiều",
     "Em pẹc pẹc húi"
 ];
 const PARTICLE_COUNT = 80; 
@@ -298,4 +298,5 @@ window.addEventListener('resize', () => {
     camera.aspect = window.innerWidth / window.innerHeight;
     camera.updateProjectionMatrix();
     renderer.setSize(window.innerWidth, window.innerHeight);
+
 }, false);
